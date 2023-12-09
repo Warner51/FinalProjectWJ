@@ -32,7 +32,6 @@ public class notes extends AppCompatActivity {
                 .setMessage("This is the notes area. Type some text and click ADD to save it as a note.")
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        // You can add code here to handle the "OK" button click
                         dialog.dismiss();
                     }
                 })

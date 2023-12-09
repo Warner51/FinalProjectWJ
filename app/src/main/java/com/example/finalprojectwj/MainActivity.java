@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         new FetchBBC(myListView).execute();
 
         showToast("Hello, Welcome to BBC News Reader!");
-        showSnackbar(layout, "Hello, this is a Snackbar!");
+        showSnackbar(layout, "This is a list of BBC's News Articles");
     }
 
     private void showToast(String message) {
